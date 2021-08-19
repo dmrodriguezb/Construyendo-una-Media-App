@@ -28,7 +28,7 @@ public class MainFragment extends BrowseFragment implements OnItemViewClickedLis
         super.onActivityCreated(savedInstanceState);
         loadData();
         setOnItemViewClickedListener( this );
-        setTitle( "UTNG Media Player" );
+        setTitle( "Concentrate" );
         setHeadersState( HEADERS_ENABLED );
         setHeadersTransitionOnBackEnabled( true );
         loadRows();

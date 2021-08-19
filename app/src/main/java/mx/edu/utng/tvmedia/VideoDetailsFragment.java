@@ -118,11 +118,11 @@ public class VideoDetailsFragment extends DetailsFragment
             @Override
             public Object get(int position) {
                 if(position == 0) {
-                    return new Action(ACTION_WATCH, "Watch", "");
+                    return new Action(ACTION_WATCH, "Mirar", "");
                 } else if( position == 1 ) {
-                    return new Action( 42, "Rent", "Line 2" );
+                    return new Action( 42, "", "" );
                 } else if( position == 2 ) {
-                    return new Action( 42, "Preview", "" );
+                    return new Action( 42, "", "" );
                 }
                 else return null;
             }
